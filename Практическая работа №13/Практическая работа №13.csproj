@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Практическая_работа__13</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Новый точечный рисунок.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\libmas\libmas.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Новый точечный рисунок.ico" />
+  </ItemGroup>
+
+</Project>
